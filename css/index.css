@@ -1,0 +1,84 @@
+body {
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.navbar {
+	background: rgb(145,36,255);
+	background: linear-gradient(180deg, rgba(145,36,255,1) 0%, rgba(63,0,126,1) 100%);
+}
+
+.row {
+	height: 20rem;
+}
+
+.bg-purple {
+	background: rgb(145,36,255);
+	background: linear-gradient(180deg, rgba(145,36,255,1) 0%, rgba(63,0,126,1) 100%);
+	padding-right: 0px;
+	padding-bottom: auto;
+}
+
+.hobby-img {
+	width: 100%;
+	height: 100%;
+}
+.navbar-brand {
+	font-family: Allison;
+	font-size: 2rem;
+}
+
+#home {
+	min-height: 40rem;
+	background-image: url('/img/home/stars.jpg');
+}
+
+#about-me, #my-projects {
+	background-color: white;
+	min-height: 40rem;
+}
+
+#my-work-experience {
+	background-color: white;
+	min-height: 40rem;
+	background-image: url('/img/my-work-experience/programming-background.jpg')
+}
+
+.my-projects-img:hover {
+	position: absolute;
+	left: 25%;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+.my-projects-a {
+	color: white;
+	text-decoration: none;
+}
+
+.my-projects-a:hover {
+	color: white;
+}
+
+#my-skills {
+	background-color: black;
+	min-height: 45rem;
+}
+
+.stars {
+	color: gold;
+}
+
+.my-skill-row {
+	font-size: 2rem;
+}
+
+footer {
+	text-align: center;
+	min-height: 4rem;
+}
+
+.right-side {
+	margin-left:50%;
+	width:100%;
+}

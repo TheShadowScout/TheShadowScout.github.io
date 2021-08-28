@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport"/>
+    <title>Kacper Chrzanowski</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="/font-awesome/css/all.css"/>
+    <link rel="stylesheet" href="fonts/Allison/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/flipbox.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark sticky-top">
+        <div class="container-fluid">
+        <span class="navbar-brand fw-bold">Kacper Chrzanowski</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Main page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#my-work-experience">My work experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#my-projects">My projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#my-skills">My skills</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container>">
+            <canvas id="particle"></canvas>
+            <h1 class="text-light text-center">Kacper Chrzanowski</h1>
+        </div>
+    </section>
+    <section id="about-me">
+        <div class="container-fluid">
+            <h1 class="text-dark text-center pt-4">About me</h1>
+            <p class="text-center text-secondary">
+                I'm actually studying computer science on West Pomeranian University of Technology in Szczecin.<br>
+                My main interests are games (both board and computer types), origami and technology news.<br>
+            </p>
+            <div class="row">
+                <div class="col-4 flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="img-fluid mx-auto rounded hobby-img" src="img/about-me/board-game.jpg">
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Favorite games:</h2>
+                            <ul class="p-0">Ludo [Board game]</ul>
+                            <ul class="p-0">Stardew Valley [Computer game]</ul>
+                            <ul class="p-0">Rayman [Computer game]</ul>
+                            <ul class="p-0">Uno [Card game]</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img class="img-fluid mx-auto rounded hobby-img" src="img/about-me/origami.jpg">
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Favorite origami models:</h2>
+                            <ul class="p-0">Crane</ul>
+                            <ul class="p-0">Lily</ul>
+                            <ul class="p-0">Tulip</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front ">
+                            <img class="img-fluid mx-auto rounded hobby-img" src="img/about-me/laptop.jpg">
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Favorite technology news:</h2>
+                            <ul class="p-0">New softwares</ul>
+                            <ul class="p-0">New phones</ul>
+                            <ul class="p-0">New PC components</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-work-experience">
+        <div class="container-fluid text-light ">
+            <h1 class="text-center pt-4">My work experience</h1>
+            <div class="col">
+                <div class="row">
+                    <div class="text-center">
+                        <li>One year as junior full-stack developer in Jamna Software [2020 - 2021]</li><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-projects">
+        <div class="container-fluid">
+            <h1 class="text-center pt-4 pb-2">My projects</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-3 bg-purple">
+                            <h1 class="text-center"><a class="my-projects-a" href="https://github.com/TheShadowScout/Planetarium">Planetarium</a></h1>
+                            <p class="text-light">
+                                This summer project was written with <strong>C# Core</strong>, <strong>MySQL</strong> and <strong>JQuery</strong>. 
+                                Animation was done using canvas with pure <strong>Javascript</strong>.<br><br>
+                                User can use it to simulate very simple star system, add his own planets with many settings and save his creation in database.<br><br>
+                                State: Possible future update.<br><br>
+                            </p>
+                        </div>
+                        <div class="col-3 bg-purple">
+                            <img class="rounded my-projects-img" src="img/my-projects/Planetarium.png" style="width: 100%; height: 100%">
+                        </div>
+                    </div>
+                    <div class="row right-side">
+                        <div class="col-3 bg-purple">
+                            <h1 class="text-center"><a class="my-projects-a" href="#">In progress</a></h1>
+                        </div>
+                        <div class="col-3 bg-purple">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-skills">
+        <div class="container-fluid text-light ">
+            <h1 class="text-center pt-4">My skills</h1>
+            <div class="col text-center mt-4">
+                <div class="row">
+                    <div class="my-skill-row">
+                        <span>C#</span>
+                        <div id="c-sharp" class="stars"></div>
+                    </div>
+                    <div class="my-skill-row">
+                        <span>C++</span>
+                        <div id="cpp" class="stars"></div>
+                    </div>
+                    <div class="my-skill-row">
+                        <span>Java</span>
+                        <div id="java" class="stars"></div>
+                    </div>
+                    <div class="my-skill-row">
+                        <span>HTML/CSS</span>
+                        <div id="html-css" class="stars"></div>
+                    </div>
+                    <div class="my-skill-row">
+                        <span>JavaScript</span>
+                        <div id="js" class="stars"></div>
+                    </div>
+                    <div class="my-skill-row">
+                        <span>Python</span>
+                        <div id="python" class="stars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-purple text-light">
+        <div class="pt-2">Copyright © Kacper Chrzanowski 2021 - Present</div>
+        <i class="fab fa-linkedin-in"></i> <a class="my-projects-a" href="https://www.linkedin.com/in/kacper-chrzanowski-a79a6a1b3/">Kacper Chrzanowski</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/font-awesome/js/all.js"></script>
+</body>
+
+</html>
+<script src="js/index.js"></script>
