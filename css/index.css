@@ -23,7 +23,7 @@ body {
 	height: 100%;
 }
 .navbar-brand {
-	font-family: Allison;
+	font-family: "dancing_scriptregular";
 	font-size: 2rem;
 }
 
@@ -44,11 +44,12 @@ body {
 	background-image: url('/img/my-work-experience/programming-background.jpg')
 }
 
+.my-projects-img {
+	transition: .2s;;
+}
+
 .my-projects-img:hover {
-	position: absolute;
-	left: 25%;
-	max-width: 50%;
-	max-height: 50%;
+	transform: scale(2,2);
 }
 
 .my-projects-a {
